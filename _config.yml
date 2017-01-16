@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "cmisid.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: Projets CMI SID
   avatar: logoSID.png
@@ -21,11 +21,11 @@ theme:
 
   # Icons
   rss: false
-  email_address: contact.taxisid@gmail.com
+  email_address: cecile.Chouquet@math.univ-toulouse.fr
   behance:
   bitbucket:
   dribbble:
-  facebook: "taxisidtoulouse"
+  facebook:
   flickr:
   github: "cmisid"
   google_plus:
@@ -37,13 +37,14 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: TaxiSID
+  twitter: "twitter"
   wordpress:
   youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
+  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -61,9 +62,6 @@ theme:
   # Post navigation
   post_navigation: false
 
-gems:
-  - jekyll-paginate
-
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
@@ -74,3 +72,4 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
+gems: [jekyll-paginate]
