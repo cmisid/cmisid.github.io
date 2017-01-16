@@ -61,9 +61,6 @@ theme:
   # Post navigation
   post_navigation: false
 
-gems:
-  - jekyll-paginate
-
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
@@ -74,3 +71,4 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
+gems: [jekyll-paginate]
